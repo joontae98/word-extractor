@@ -8,7 +8,7 @@ public class FileIO {
         //파일 출력
 //        try {
 //
-//            OutputStream output = new FileOutputStream("D:/workspace/IdeaProjects/regex_project/Output.txt");
+//            OutputStream output = new FileOutputStream("D:/workspace/IdeaProjects/word_extractor/Output.txt");
 //            String str = "Hello World!";
 //            byte[] by = str.getBytes();
 //            output.write(by); //.write() 메소드는 byte형으로만 넣을 수 있다.
@@ -20,7 +20,7 @@ public class FileIO {
         //파일 입력
 //        try {
 //
-//            File file = new File("D:/workspace/IdeaProjects/regex_project/Output.txt");
+//            File file = new File("D:/workspace/IdeaProjects/word_extractor/Output.txt");
 //            FileReader file_reader = new FileReader(file);
 //            int cur = file_reader.read();    //.read() 메소드의 리턴이 int형이기 때문에 cur를 int형으로 선언해주어야 한다.
 //            while (cur != -1) {  //-1을 EOP 라고 부르며 파일의 끝을 나타낸다.
@@ -42,7 +42,7 @@ public class FileIO {
 //        BufferedOutputStream bos = null;
 //        try {
 //
-//            bos = new BufferedOutputStream(new FileOutputStream("D:/workspace/IdeaProjects/regex_project/Output.txt"));
+//            bos = new BufferedOutputStream(new FileOutputStream("D:/workspace/IdeaProjects/word_extractor/Output.txt"));
 //            String str = "Hello World! with BufferOutputStream.";
 //            bs.write(str.getBytes());
 //
@@ -53,7 +53,7 @@ public class FileIO {
 //        }
 
         //메모리 버퍼를 이용한 파일 입력
-//        File file = new File("D:/workspace/IdeaProjects/regex_project/Output.txt");
+//        File file = new File("D:/workspace/IdeaProjects/word_extractor/Output.txt");
 //        try {
 //
 //            BufferedReader br = new BufferedReader(new FileReader(file));
